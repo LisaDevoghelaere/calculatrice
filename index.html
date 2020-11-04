@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculatrice</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+   <div class="container">
+        <div id="output">
+           I'm Sherlocked
+        </div>
+        <div>
+           <input onclick="reset(this)" type="button" value="AC">
+           <input onclick="remove(this)" type="button" value="CE">
+           <input onclick="ShowValue(this)" type="button" value="%">
+           <input onclick="ShowValue(this)" type="button" value="/">
+           <input onclick="ShowValue(this)" type="button" value="7">
+           <input onclick="ShowValue(this)" type="button" value="8">
+           <input onclick="ShowValue(this)" type="button" value="9">
+           <input onclick="ShowValue(this)" type="button" value="*">
+           <input onclick="ShowValue(this)" type="button" value="4">
+           <input onclick="ShowValue(this)" type="button" value="5">
+           <input onclick="ShowValue(this)" type="button" value="6">
+           <input onclick="ShowValue(this)" type="button" value="-">
+           <input onclick="ShowValue(this)" type="button" value="1">
+           <input onclick="ShowValue(this)" type="button" value="2">
+           <input onclick="ShowValue(this)" type="button" value="3">
+           <input onclick="ShowValue(this)" type="button" value="+">
+           <input onclick="ShowValue(this)" type="button" value="0">
+           <input onclick="ShowValue(this)" type="button" value=".">
+           <input onclick="resultat(this)" type="button" value="=">
+       </div>
+   </div>
+   <script src="app.js"></script> 
 </body>
 </html>
