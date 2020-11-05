@@ -3,6 +3,8 @@
 
 -Aller au plus simple pour créer une calculatrice
 
--rationnaliser le js
+Xrationnaliser le js
 
--personnaliser le css
+X personnaliser le css
+-affiner l'animation
+-mettre un container
