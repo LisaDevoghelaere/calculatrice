@@ -24,13 +24,6 @@ input:hover {
   border-radius: 10px;
 }
 
-#superconteneur {
-  border-radius: 25px;
-  margin: 0 auto;
-  height: 500px;
-  width: 600px;
-}
-
 body {
   background-color: #FFFFFF;
   animation: colorchange 20s;
@@ -50,10 +43,10 @@ body {
     background: #FFB7FF;
   }
   75% {
-    background: #3BF4FB;
+    background: #C879FF;
   }
   100% {
-    background: #CAFF8A;
+    background: #826AED;
   }
 }
 
@@ -75,7 +68,7 @@ body {
   }
 }
 
-#conteneur {
+#container {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -86,6 +79,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 25px;
+  margin: 0 auto;
+  height: auto;
+  width: 6rem;
 }
 
 input[value="AC"] {

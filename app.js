@@ -1,6 +1,6 @@
 //on initialise une variable vide
 let input="";
-//variables
+//variable output
 const outPut = document.getElementById("output")
 //fonction pour récupérer la valeur de l'input
 function ShowValue(btn){
