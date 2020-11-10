@@ -1,12 +1,13 @@
 //on initialise une variable vide
 let input="";
-//variable output
-const outPut = document.getElementById("output")
+const outPut = document.getElementById("output");
+
+
 //fonction pour récupérer la valeur de l'input
 function ShowValue(btn){
     //ci-dessous : quand on tape on retourne la valeur en string
     input = input + btn.value;
-    //console.log(input);
+
     //on selectionne l'endroit dans lequel on va afficher les chiffre
     outPut.innerHTML = input;
 };
