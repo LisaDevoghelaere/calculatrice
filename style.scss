@@ -33,18 +33,20 @@ input{
      @keyframes colorchange
       {
         0%   {background: #826AED;}
-        25%  {background: #C879FF;}
-        50%  {background: #FFB7FF;}
-        75%  {background:#C879FF}
+        20%  {background: #C879FF;}
+        40%  {background: #FFB7FF;}
+        60%  {background: #FFB7FF;}
+        80%  {background:#C879FF}
         100% {background:#826AED;}
       }
       @-webkit-keyframes colorchange 
       {
-        0%   {background: #FFB7FF;}
-        25%  {background:  #CAFF8A;}
-        50%  {background:  #826AED;}
-        75%  {background: #3BF4FB;}
-        100% {background: #C879FF;}
+        0%   {background: #826AED;}
+        20%  {background: #C879FF;}
+        40%  {background: #FFB7FF;}
+        60%  {background: #FFB7FF;}
+        80%  {background:#C879FF}
+        100% {background:#826AED;}
       }
   #container
   {
